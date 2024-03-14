@@ -1,4 +1,7 @@
 # TP1PROVIS  
+NIM   : 2206697
+Nama  : Rifa Sania
+Kelas : Ilmu Komputer - C1
 
 # PENJELASAN KODE
 ## IMPLEMENTASI OOP
