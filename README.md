@@ -1,8 +1,5 @@
 # TP1PROVIS  
 
-# JANJI
-Saya Rifa Sania NIM 2206697 mengerjakan Tugas Praktikum 1 dalam mata kuliah Pemrograman Visual untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin...
-
 # PENJELASAN KODE
 ## IMPLEMENTASI OOP
 1. Kelas Mahasiswa
