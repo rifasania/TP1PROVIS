@@ -1,5 +1,8 @@
 # TP1PROVIS  
 
+# JANJI
+Saya Rifa Sania NIM 2206697 mengerjakan Tugas Praktikum 1 dalam mata kuliah Pemrograman Visual untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin...
+
 # PENJELASAN KODE
 ## IMPLEMENTASI OOP
 1. Kelas Mahasiswa
@@ -15,12 +18,12 @@
    - Metode getNamaDivisi() digunakan untuk mendapatkan nilai dari properti _namaDivisi.
    - Terdapat setter namaDivisi() untuk mengubah nilai properti _namaDivisi.
    - Metode tambahAnggota(), hapusAnggota(), dan tampilkanDaftarAnggota() digunakan untuk mengelola anggota dalam divisi.
-   - Metode lakukanProker() digunakan untuk mensimulasikan pengerjaan proker oleh divisi dengan menggunakan asynchronous delay.
+   - Metode lakukanProker() digunakan untuk mensimulasikan pengerjaan program kerja oleh divisi dengan menggunakan asynchronous delay.
      
 ## IMPLEMENTASI ASYNCHRONOUS
 1. Penggunaan Future
    - Pada metode lakukanProker() dalam kelas Divisi, menggunakan await Future.delayed(Duration(seconds: 3)) untuk mensimulasikan waktu yang dibutuhkan untuk menyelesaikan proker.
-   - Metode ini menjadi asynchronous karena menggunakan await dan Future, sehingga memungkinkan program untuk melanjutkan eksekusi selanjutnya tanpa harus menunggu waktu yang ditentukan selesai.
+   - Metode ini merupakan asynchronous karena menggunakan await dan Future, sehingga memungkinkan program untuk melanjutkan eksekusi selanjutnya tanpa harus menunggu waktu yang ditentukan selesai.
 3. Pemanggilan Asynchronous
-   - Dalam main(), kita menggunakan await saat memanggil metode lakukanProker() untuk divisi dpo dan divroh. Hal ini memastikan bahwa proker yang sedang dikerjakan oleh divisi tersebut selesai sebelum program melanjutkan eksekusi selanjutnya.
-   - Dengan menggunakan asynchronous, program dapat menjalankan beberapa tugas secara paralel dan efisien, seperti pengerjaan proker oleh beberapa divisi secara bersa
+   - Pada main(), await digunakan saat memanggil metode lakukanProker() untuk divisi dpo dan divroh. Hal ini memastikan bahwa program kerja yang sedang dikerjakan oleh divisi tersebut selesai sebelum program melanjutkan eksekusi selanjutnya.
+   - Dengan menggunakan asynchronous, program dapat menjalankan beberapa tugas secara paralel dan efisien, seperti pengerjaan program kerja oleh beberapa divisi secara bersamaan.

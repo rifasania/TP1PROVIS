@@ -64,9 +64,9 @@ class Divisi {
   }
 
   Future<void> lakukanProker(String namaproker) async {
-    print('Divisi $_namaDivisi sedang mengerjakan proker $namaproker...');
+    print('Divisi $_namaDivisi sedang mengerjakan program kerja $namaproker...');
     await Future.delayed(Duration(seconds: 3));
-    print('Divisi $_namaDivisi telah menyelesaikan proker $namaproker.');
+    print('Divisi $_namaDivisi telah menyelesaikan program kerja $namaproker.');
   }
 }
 
@@ -99,4 +99,5 @@ void main() async {
   await dpo.lakukanProker('Kemakom Leadership Training');
   print("");
   await divroh.lakukanProker('Maulid Kemakom Festival');
+  print("");
 }
